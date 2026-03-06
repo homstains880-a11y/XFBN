@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ofertas Especiais</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#2563eb,#4f46e5,#7c3aed);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+/* CARD */
+
+.container{
+max-width:420px;
+width:100%;
+background:white;
+border-radius:22px;
+overflow:hidden;
+box-shadow:0 25px 60px rgba(0,0,0,0.25);
+animation:fade 0.8s ease;
+}
+
+@keyframes fade{
+from{opacity:0;transform:translateY(40px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+/* HEADER */
+
+.header{
+background:linear-gradient(90deg,#2563eb,#7c3aed);
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.header h1{
+font-size:38px;
+font-weight:800;
+letter-spacing:2px;
+}
+
+/* CONTENT */
+
+.content{
+padding:30px;
+text-align:center;
+}
+
+.subtitle{
+font-size:16px;
+color:#444;
+margin-bottom:20px;
+}
+
+/* BENEFICIOS */
+
+.benefits{
+text-align:left;
+margin-bottom:25px;
+}
+
+.benefits div{
+margin-bottom:10px;
+font-size:15px;
+}
+
+/* BOTAO */
+
+.cta{
+display:block;
+background:linear-gradient(90deg,#2563eb,#7c3aed);
+color:white;
+text-decoration:none;
+padding:18px;
+border-radius:12px;
+font-weight:700;
+font-size:18px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+transition:.3s;
+}
+
+.cta:hover{
+transform:scale(1.05);
+}
+
+/* AVISO */
+
+.notice{
+margin-top:15px;
+font-size:12px;
+color:#777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<h1>OFERTAS</h1>
+</div>
+
+<div class="content">
+
+<div class="subtitle">
+Confira as oportunidades disponíveis agora.
+</div>
+
+<div class="benefits">
+<div>✔ Descontos especiais</div>
+<div>✔ Processo rápido</div>
+<div>✔ Acesso imediato</div>
+</div>
+
+<a class="cta" href="https://consultoria-giovana-online2026.netlify.app/">
+VER OFERTAS
+</a>
+
+<div class="notice">
+Você será direcionado para a página de ofertas.
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
